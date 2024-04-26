@@ -6,9 +6,9 @@
   "homepage": "https://devias.io",
   "private": false,
   "scripts": {
-    "dev": "next -p 4000",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next -p 4000",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "export": "next export",
     "lint": "next lint",
     "lint-fix": "next lint --fix"
